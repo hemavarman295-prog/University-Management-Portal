@@ -1,0 +1,68 @@
+.im-page {
+  padding: 30px;
+  min-height: calc(100vh - 80px);
+  background: #f6f7fb;
+}
+
+.im-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 28px;
+  
+}
+
+.im-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 24px 26px;
+
+    height: 160px; 
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    display: flex;
+}
+
+
+.im-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.im-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+
+.im-header p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  color: #16005d;
+}
+
+.im-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #16005d;
+}
+
+
+.im-mark {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+
+}
+
+.im-mark-min {
+  color: #d32f2f;
+}
+
+.im-mark-max {
+  color: #1e7e34;
+}
